@@ -1,109 +1,110 @@
-# Created by https://www.toptal.com/developers/gitignore/api/matlab,keil,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=matlab,keil,visualstudiocode
-
-### Keil ###
-# something maybe need to add
-# *.bat  # generate batch file
-# output/project_name # uv project generate without file ext
-# *.SRC # generate source file
-# *.src
-
-# Prerequisites
-*.d
-*.dep
-# Object files
+############################
+# Compiled Object Files
+############################
+*.slo
+*.lo
 *.o
 *.obj
 *.OBJ
+*.d
+*.dep
 
-# Listing Files
+############################
+# Compiled Binaries & Outputs
+############################
+*.bin
+*.elf
+*.hex
+*.HEX
+*.map
+*.MAP
+*.ABS
+
+############################
+# Compiled Libraries
+############################
+*.so
+*.dylib
+*.lai
+*.la
+*.a
+*.lib
+*.LIB
+
+############################
+# Listing / Linker / Debug Files
+############################
 *.COD
 *.cod
 *.[Ii]
 *.LST
 *.lst
-*.MAP
-*.map
 *.[Mm]51
 *.[Mm]66
 *.SCR
 *.scr
-
-# LINK output
-*.ABS
-
-# Libraries
-*.lib
-*.LIB
-
-
-# uv output
 *.lnp
 *.build_log.htm
-*.HEX
-*.hex
-
-
-# Build Files
 *._IA
 *.__[Ii]
 *._[Ii][Ii]
 
-# project
+############################
+# Eclipse / STM32CubeIDE
+############################
+.settings/
+Debug/
+Release/
+# *.cproject
+# *.project
+*.xml
+
+############################
+# CooCox / Keil
+############################
+*.cogui
+*.comarker
+*.pbxproj
+*.comemgui
+debug.config
 *.uvgui.*
 *.uvguix.*
 
+############################
+# J-Link
+############################
+*.jflash
 
-### MATLAB ###
-# Windows default autosave extension
+############################
+# MATLAB / Simulink
+############################
 *.asv
-
-# OSX / *nix default autosave extension
 *.m~
-
-# Compiled MEX binaries (all platforms)
 *.mex*
-
-# Packaged app and toolbox files
 *.mlappinstall
 *.mltbx
-
-# Generated helpsearch folders
+*.autosave
+*.slxc
+octave-workspace
 helpsearch*/
-
-# Simulink code generation folders
 slprj/
 sccprj/
-
-# Matlab code generation folders
 codegen/
 
-# Simulink autosave extension
-*.autosave
-
-# Simulink cache files
-*.slxc
-
-# Octave session info
-octave-workspace
-
-### VisualStudioCode ###
+############################
+# Visual Studio Code
+############################
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
-
-# Local History for Visual Studio Code
 .history/
-
-# Built Visual Studio Code Extensions
 *.vsix
-
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/matlab,keil,visualstudiocode
+############################
+# Misc / Backup / Trash
+############################
+*.bak
