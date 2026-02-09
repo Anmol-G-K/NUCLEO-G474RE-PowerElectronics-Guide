@@ -1,0 +1,10 @@
+config load "C:\Users\GNKRISHNAN\Documents\GitHub\NUCLEO-G474RE-PowerElectronics-Guide\Examples\01_Basic_Led_Blink\Matlab_Coder\Basic_Led_Blink\Basic_Led_Blink.ioc"
+project toolchain STM32CubeIDE
+
+SetStructure Advanced
+
+project setCustomFWPath "C:\Users\GNKRISHNAN\STM32Cube\Repository\STM32Cube_FW_G4_V1.6.0"
+
+project generate 
+
+exit wait

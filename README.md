@@ -133,16 +133,17 @@ NUCLEO-G474RE-PowerElectronics-Guide/
 │   ├── 02_ADC_Basic/                    # ADC sampling fundamentals
 │   ├── 03_PWM_Generation/               # PWM basics and configuration
 │   ├── 04_Timer_Basics/                 # Timer operation and ISR
-│   ├── 05_Motor_Control_Basic/          # Simple motor speed control
-│   ├── 06_H_Bridge_Control/             # H-Bridge PWM control
-│   └── 07_Current_Sensing/              # ADC-based current measurement
-│
+│   ├── 05_H_Bridge_Control/             # H-Bridge PWM control
+│   └── 06_Current_Sensing/              # ADC-based current measurement
+│   └── 07_Phase_Shifted_PWM/            # Complex PWM Switching Technique 
 │
 ├── README.md                             # This file
 ├── LICENSE                               # MIT License
 └── CONTRIBUTING.md                       # Contribution guidelines
 
 ```
+<!-- │   ├── 05_Motor_Control_Basic/          # Simple motor speed control -->
+
 <!-- ├── Utilities/
 │   ├── Common_Functions.c/h             # Reusable firmware functions
 │   ├── Debug_UART.c/h                   # UART debugging utilities
@@ -255,6 +256,7 @@ This allows for both commercial and personal use with proper attribution.
 - [STM32G474xE Datasheet](https://www.st.com/resource/en/datasheet/stm32g474re.pdf)
 - [STM32 G474RE Reference Manual](https://www.st.com/resource/en/reference_manual/rm0440-stm32g4-series-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
 - [Application note - HRTIM Cookbook](https://www.st.com/resource/en/application_note/an4539-hrtim-cookbook-stmicroelectronics.pdf)
+- [ Description of STM32G4 HAL and low-layer drivers](https://www.st.com/resource/en/user_manual/um2570-description-of-stm32g4-hal-and-lowlayer-drivers--stmicroelectronics.pdf)
 
 ## 🗺️ Roadmap
 

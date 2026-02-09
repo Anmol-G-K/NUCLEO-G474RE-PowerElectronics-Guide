@@ -108,3 +108,10 @@ codegen/
 # Misc / Backup / Trash
 ############################
 *.bak
+IMGS/
+############################
+# STM32CubeIDE Workspace Metadata
+############################
+.metadata/
+**/.metadata/
+CUBE-IDE/**/.metadata/
