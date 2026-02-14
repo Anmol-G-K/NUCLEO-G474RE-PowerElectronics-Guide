@@ -268,6 +268,8 @@ Planned additions:
 - [ ] More MATLAB Embedded Coder examples
 - [ ] FreeRTOS integration example
 - [ ] CAN bus communication tutorial
+---
+- [ ] As of now ert_rtw is also tracked will untrack in future if required.
 
 ## 📝 Citation
 
