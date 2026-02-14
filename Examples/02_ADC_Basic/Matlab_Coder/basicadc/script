@@ -1,0 +1,10 @@
+config load "C:\Users\GNKRISHNAN\Documents\GitHub\NUCLEO-G474RE-PowerElectronics-Guide\Examples\02_ADC_Basic\Matlab_Coder\basicadc\basicadc.ioc"
+project toolchain STM32CubeIDE
+
+SetStructure Advanced
+
+project setCustomFWPath "C:\Users\GNKRISHNAN\STM32Cube\Repository\STM32Cube_FW_G4_V1.6.0"
+
+project generate 
+
+exit wait
