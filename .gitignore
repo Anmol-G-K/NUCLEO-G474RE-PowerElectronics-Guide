@@ -57,7 +57,7 @@ Debug/
 Release/
 # *.cproject
 # *.project
-*.xml
+# *.xml
 
 ############################
 # CooCox / Keil
@@ -90,6 +90,7 @@ helpsearch*/
 slprj/
 sccprj/
 codegen/
+*_ert_rtw/
 
 ############################
 # Visual Studio Code
@@ -115,3 +116,9 @@ IMGS/
 .metadata/
 **/.metadata/
 CUBE-IDE/**/.metadata/
+
+############################
+# Optional STM32 logs
+############################
+*.launch
+*.log
