@@ -2,43 +2,46 @@
 # Line ending normalization
 ###############################################################################
 
-# Auto detect text files and normalize to LF in repo
 * text=auto eol=lf
 
-# Windows batch files must keep CRLF
 *.bat text eol=crlf
 
 ###############################################################################
 # STM32 / C / Headers
 ###############################################################################
 
-*.c     text
-*.h     text
-*.s     text
-*.ld    text
-*.mk    text
-*.ioc   text
-*.project text
-*.cproject text
+*.c         text diff=c
+*.h         text diff=c
+*.s         text
+*.ld        text
+*.mk        text
+*.ioc       text
+*.project   text
+*.cproject  text
 *.mxproject text
 
 ###############################################################################
 # MATLAB / Simulink
 ###############################################################################
 
-# Simulink models are binary
-*.slx binary
-*.slxc binary
-*.mat binary
+# MATLAB source files
+*.m text linguist-language=MATLAB diff=matlab
+
+# Simulink models (force MATLAB/Simulink classification, but keep binary)
+*.slx  binary -diff linguist-language=MATLAB
+*.slxc binary -diff linguist-language=MATLAB
+
+# MAT files (binary data)
+*.mat binary -diff
 
 ###############################################################################
 # Build artifacts (should also be in .gitignore)
 ###############################################################################
 
-*.o     binary
-*.elf   binary
-*.hex   binary
-*.bin   binary
+*.o     binary -diff
+*.elf   binary -diff
+*.hex   binary -diff
+*.bin   binary -diff
 *.map   text
 *.dep   text
 *.su    text
@@ -49,12 +52,3 @@
 
 Debug/**        binary
 **/Debug/**     binary
-
-###############################################################################
-# Prevent diff noise for generated files
-###############################################################################
-
-*.elf   -diff
-*.bin   -diff
-*.hex   -diff
-*.o     -diff
