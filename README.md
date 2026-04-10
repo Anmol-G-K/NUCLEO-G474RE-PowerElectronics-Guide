@@ -294,7 +294,9 @@ https://github.com/Anmol-G-K/NUCLEO-G474RE-PowerElectronics-Guide
 
 ---
 
-**Last Updated**: February 2026  
-**Status**: Active Development
+![Last Updated](https://img.shields.io/github/last-commit/Anmol-G-K/NUCLEO-G474RE-PowerElectronics-Guide?label=Last%20Updated&style=for-the-badge&color=4c6ef5)
+![Activity](https://img.shields.io/github/commit-activity/m/Anmol-G-K/NUCLEO-G474RE-PowerElectronics-Guide?label=Activity&style=for-the-badge&color=86efac)
+![Repo Size](https://img.shields.io/github/repo-size/Anmol-G-K/NUCLEO-G474RE-PowerElectronics-Guide?style=for-the-badge&color=fcd34d)
+![Stars](https://img.shields.io/github/stars/Anmol-G-K/NUCLEO-G474RE-PowerElectronics-Guide?style=for-the-badge&color=fda4af)
 
 For the latest updates and announcements, watch this repository! ⭐
