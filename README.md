@@ -179,6 +179,11 @@ Read analog values from a potentiometer or sensor. Essential for understanding f
 
 Configure PWM signals for driving MOSFETs or IGBTs. Covers frequency, duty cycle, and dead-time configuration.
 
+### 4. Timer Basics and ISR
+**Location**: `Examples/04_Timer_Basics`
+
+Implements an event-driven LED control system using timer interrupts and external GPIO interrupts on the NUCLEO-G474RE to cycle through user-selectable blinking speeds via button input.
+
 <!-- ### 4. Motor Speed Control
 **Location**: `Examples/05_Motor_Control_Basic`
 

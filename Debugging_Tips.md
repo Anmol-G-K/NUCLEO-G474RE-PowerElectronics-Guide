@@ -1,5 +1,12 @@
 # Debugging Guide
 
+### 🔧 Toolchain Versions
+![MCU](https://img.shields.io/badge/MCU-STM32G474RE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![IDE](https://img.shields.io/badge/IDE-STM32CubeIDE%20v1.19.0-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-R2025a-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
+![Embedded Coder](https://img.shields.io/badge/Embedded%20Coder-v25.1.0-4CAF50?style=for-the-badge&logo=mathworks&logoColor=white)
+![STM32 Support Package](https://img.shields.io/badge/STM32%20Support%20Package-v25.1.0-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+
 ## Common Issues and Solutions
 
 ### Compilation Errors
