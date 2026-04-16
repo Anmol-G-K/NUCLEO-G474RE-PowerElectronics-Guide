@@ -198,11 +198,11 @@ Generate PWM control logic using MATLAB Simulink and deploy to hardware using Em
 
 Comprehensive documentation is available in the `Documentation/` folder:
 
-- **[STM32G474RE Overview](./Documentation/STM32G474RE_Overview.md)** - Hardware features and capabilities
-- **[PWM Configuration Guide](./Documentation/PWM_Configuration_Guide.md)** - Advanced PWM setup
-- **[ADC Setup Guide](./Documentation/ADC_Setup_Guide.md)** - Analog-to-digital conversion configuration
+<!-- - **[STM32G474RE Overview](./Documentation/STM32G474RE_Overview.md)** - Hardware features and capabilities -->
+<!-- - **[PWM Configuration Guide](./Documentation/PWM_Configuration_Guide.md)** - Advanced PWM setup -->
+<!-- - **[ADC Setup Guide](./Documentation/ADC_Setup_Guide.md)** - Analog-to-digital conversion configuration -->
 - **[Debugging Tips](./Documentation/Debugging_Tips.md)** - Troubleshooting and debugging techniques
-- **[Power Electronics Basics](./Documentation/Power_Electronics_Basics.md)** - Fundamental concepts
+<!-- - **[Power Electronics Basics](./Documentation/Power_Electronics_Basics.md)** - Fundamental concepts -->
 
 ## 🤝 Contributing
 
