@@ -184,6 +184,11 @@ Configure PWM signals for driving MOSFETs or IGBTs. Covers frequency, duty cycle
 
 Implements an event-driven LED control system using timer interrupts and external GPIO interrupts on the NUCLEO-G474RE to cycle through user-selectable blinking speeds via button input.
 
+### 5. H-Bridge Motor Control
+**Location**: `Examples/05_H_Bridge_Control`
+
+Implements a bidirectional H-bridge motor controller using HRTIM for 40 kHz complementary PWM with 1 μs dead-time. Features ADC duty modulation, a ramp integrator for soft-stops, and a GPIO-driven FSM for direction and stop control.
+
 <!-- ### 4. Motor Speed Control
 **Location**: `Examples/05_Motor_Control_Basic`
 
