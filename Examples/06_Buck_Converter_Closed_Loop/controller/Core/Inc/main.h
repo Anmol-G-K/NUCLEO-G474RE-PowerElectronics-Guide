@@ -41,6 +41,7 @@ extern "C" {
 #include "stm32g4xx_ll_utils.h"
 #include "stm32g4xx_ll_pwr.h"
 #include "stm32g4xx_ll_tim.h"
+#include "stm32g4xx_ll_usart.h"
 #include "stm32g4xx_ll_gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -68,9 +69,11 @@ void Error_Handler(void);
 void MX_GPIO_Init(void);
 void MX_DMA_Init(void);
 void MX_LPUART1_UART_Init(void);
-void MX_DAC1_Init(void);
 void MX_ADC1_Init(void);
+void MX_DAC1_Init(void);
 void MX_TIM1_Init(void);
+void MX_TIM3_Init(void);
+void MX_USART3_UART_Init(void);
 
 /* USER CODE BEGIN EFP */
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Buck_Converter_Closed_Loop</name>
+	<name>controller</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -32,9 +32,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>Buck_Converter_Closed_Loop.ioc</name>
+			<name>controller.ioc</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Buck_Converter_Closed_Loop.ioc</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/controller.ioc</locationURI>
 		</link>
 		<link>
 			<name>Drivers/CMSIS/system_stm32g4xx.c</name>
@@ -160,6 +160,11 @@
 			<name>Drivers/STM32G4xx_HAL_Driver/stm32g4xx_ll_tim.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_tim.c</locationURI>
+		</link>
+		<link>
+			<name>Drivers/STM32G4xx_HAL_Driver/stm32g4xx_ll_usart.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usart.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/STM32G4xx_HAL_Driver/stm32g4xx_ll_utils.c</name>
