@@ -12,6 +12,7 @@ A comprehensive guide for troubleshooting firmware, Simulink code generation, an
 ---
 
 ## 📋 Table of Contents
+
 - [Common Compilation & Build Issues](#common-compilation--build-issues)
 - [Hardware & Peripheral Issues](#hardware--peripheral-issues)
 - [Efficient Embedded Debugging Techniques](#efficient-embedded-debugging-techniques)

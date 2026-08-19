@@ -18,6 +18,7 @@ Thank you for your interest in contributing to this project! We welcome contribu
 - [Suggesting Enhancements](#suggesting-enhancements)
 - [License](#license)
 - [Questions or Need Help?](#questions-or-need-help)
+- [Thank You!](#thank-you)
 
 ## 📜 Code of Conduct
 

@@ -21,7 +21,7 @@ A comprehensive guide to getting started with the **STM32 NUCLEO-G474RE** develo
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Hardware Requirements](#hardware-requirements)
-- [Recommended Test Equipment](#recommended-test-equipment--components)
+- [Recommended Test Equipment & Components](#recommended-test-equipment--components)
 - [Software Requirements](#software-requirements)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
@@ -30,6 +30,9 @@ A comprehensive guide to getting started with the **STM32 NUCLEO-G474RE** develo
 - [Contributing](#contributing)
 - [License](#license)
 - [Support](#support)
+- [Citation](#citation)
+- [‍Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## 🎯 Overview
 
@@ -320,10 +323,12 @@ https://github.com/Anmol-G-K/NUCLEO-G474RE-PowerElectronics-Guide
 
 **Anmol Govindarajapuram Krishnan**
 - GitHub: [@Anmol-G-K](https://github.com/Anmol-G-K)
-- Email: cb.en.u4eee23103@cb.students.amrita.edu
+- Academic Email: cb.en.u4eee23103@cb.students.amrita.edu
+- Personal Email: krishnananmol05@gmail.com
 
 ## 🙏 Acknowledgments
 
+- My **Power Electronics** and **Embedded Systems** faculty for their invaluable guidance in fine-tuning this project and their insightful recommendations for the Phase 2 research direction.
 - STMicroelectronics for excellent microcontrollers and tools
 - The embedded systems and power electronics community
 - Contributors and users who provide feedback
